@@ -1,0 +1,49 @@
+.App {
+  background-color: rgb(220, 221, 245);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Merriweather", serif;
+}
+
+.quote-card {
+  background-color: #ffdacc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+
+.saved-quote-card {
+  background-color: #dfffcc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.saved-quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
